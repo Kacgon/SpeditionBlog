@@ -1,0 +1,588 @@
+@media screen and (max-width: 600px) {
+    html,
+    body{
+    width:100%;
+    overflow-x:hidden;
+    }
+    .searchbar{
+      display: none;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+.SingleSmallPost{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+  .Categories{
+    margin-left: 0px !important;
+  }
+   .Authors{
+    margin-left: 0px !important;
+   }
+   .Tags{
+    margin-left: 0px !important;
+   }
+   .newsletter-subscribe{
+    margin-left: 0px !important;
+   } 
+}
+@media screen and (max-width: 600px) {
+  .AppFullContainer2{
+    padding-block: 0.1rem !important;
+    padding-left: 0.1rem !important;
+    padding-right: 0.1rem !important; 
+  }
+  }
+.WholePage{
+  width: 100%
+}
+body{
+  width:100%;
+  overflow-x:hidden;
+  }
+.AppFullContainer2{
+  padding-block: 15px ;
+  padding-left: 110px;
+  padding-right: 0px;
+}
+.fullPage{
+    font-family: sans-serif;
+    width: 100%;
+  }
+.ImageFirstPost{
+    height: 550px;
+    width: 100%;
+    object-fit: cover;
+}
+.intro{
+    display: grid;
+}
+.home {
+    display: flex;
+}
+
+.SearchbarInput{
+    align-self:flex-end;
+    margin-left: 5;
+    width: 380px;
+    border-radius: 5px;
+    height: 35px;
+    border: 1px solid rgb(187, 177, 177);
+}
+.searchbar{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    background: rgb(36, 143, 214);
+    border-radius:  5px;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+.TestKolor{
+    color:white;
+}
+.Card{
+    align-self: flex-end;
+}
+.InsideOfBanner{
+  padding: 2px;
+}
+.BanerFirstPost{
+    font-size:17px;
+    color: rgb(247, 249, 252);
+    background-color: rgb(58, 162, 211);
+    border-style:solid;
+    border-width: 1px;
+    background-color: rgb(58, 162, 211);
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    display: inline-block;
+    height: 30px;
+}
+.AvatAndId{
+    display:grid;
+    align-items: center;
+    flex-wrap:wrap;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.PostsAvatar{
+    margin-left: 10px;
+}
+
+
+.AvatAndId2{
+  display:grid;
+  align-items: center;
+  flex-wrap:wrap;
+  margin-left: 8%;
+  margin-bottom: 20px;
+  margin-top: 55px;
+}
+.PostsAvatar2{
+  float: left;
+  margin-top: 45px;
+}
+.h1posts{
+    font-size: 17px;
+}
+
+.AvatAndId1{
+  display:inline-block;
+  align-items: center;
+  flex-wrap:wrap;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.PostsAvatar1{
+display: inline-block;
+}
+.h1posts1{
+  font-size: 17px;
+}
+.h2posts1{
+  font-size: 15px;
+    color: rgb(148, 143, 143);
+}
+.h2posts{
+    font-size: 15px;
+    color: rgb(148, 143, 143);
+}
+.BanerSmalltPosts{
+    font-size:17px;
+    color: rgb(247, 249, 252);
+    background-color: rgb(58, 162, 211);
+    border-style:solid;
+    border-width: 1px;
+    background-color: rgb(58, 162, 211);
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    height: 30px;
+    display: inline-block;
+}
+.smallPostsBody{
+    margin-left: 10px;
+    margin-bottom: 35px;
+}
+.BodyPadd{
+  padding: 3px;
+}
+.Cyfra{
+  padding: 2px;
+}
+.aligning{
+  display: inline-block;
+}
+.bodOfCategory{
+  font-size: small;
+  display: inline-block;
+  width:90%;
+  padding-left: 16px;
+}
+.sidebarListItem{
+    border-top: 1px solid rgb(219, 214, 214);
+    width: 100%;
+    height: 90%;
+}
+.numberCircle {
+    margin-bottom: 0px;
+    margin-right: 5px;
+    border-radius: 45%;
+    width: 25px;
+    height: 20px;
+    padding: 2px;
+    background: rgb(204, 237, 241);
+    border: 1px solid #666;
+    color: #666;
+    font: 10px Arial, sans-serif;
+}
+.custom-container{
+margin: 15px;
+}
+.FirstPost{
+    margin-top: 15px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    width: 100%;
+    height: 100%;
+    flex: 50%;
+}
+.CategoriesTitle{
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-stretch: expanded;
+    font-weight:600;
+    margin-left: 5px;
+}
+.postsTitle{
+    font-size: 20px;
+    font-stretch: expanded;
+    font-weight: 640;
+    margin-left: 5px;
+    color: #000;
+}
+.SmallPostsTitle{
+  font-size: 20px;
+  font-stretch: expanded;
+  font-weight: 640;
+  margin-left: 10px;
+  color: #000;
+}
+
+.numberOfCategory{
+    background-color: red;
+    flex: 50%;
+}
+.Categories{
+    text-align: start;
+    width: 100%;
+    display:flex;
+    font-size:medium;
+    border-style:solid;
+    border-width: 1px;
+    border-color: rgb(224, 213, 213);
+    margin-bottom: 10px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    margin-left: 15px;
+    
+}
+.Tags{
+    text-align: start;
+    display:flex;
+    font-size:60%;
+    background-color: #ffffff;
+    border-style:solid;
+    border-width: 1px;
+    border-color: rgb(224, 213, 213);
+    margin-bottom: 10px;
+    border-radius: 7px;
+    margin-left: 0px;
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 15px;
+}
+.smallerPosts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: column;
+    margin-top: 30px;
+    column-count: 2;
+    flex: 1
+} 
+.featury{
+ padding-left: 10px;
+ padding-right: 10px;
+}
+.SingleSmallPost{ 
+    padding-top: 10px;
+    column-count: 2;
+    flex: 1;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.newsletter-subscribe {
+    color: #313437;
+    background-color: #ffffff;
+    border-style:solid;
+    border-width: 1px;
+    border-color: rgb(224, 213, 213);
+    border-radius: 7px;
+    height: 100%;
+    width: 100%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    display: flex;
+  
+  
+  }
+  
+  .newsletter-subscribe p {
+    color: #16191b;
+    line-height: 1.5;
+  }
+  
+  .newsletter-subscribe .intro {
+    font-size: 12px;
+    max-width: 500px;
+    margin: 0 auto 25px;
+  }
+  
+  .newsletter-subscribe .intro p {
+    margin-bottom: 35px;
+  }
+  
+  .newsletter-subscribe form {
+    justify-content: center;
+  }
+  .newsletter-subscribe form .btn {
+    padding: 16px 32px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    line-height: 1;
+  }
+  
+  .newsletter-subscribe form .btn:hover {
+    opacity: 1;
+  }
+  
+  .newsletter-subscribe form .btn:active {
+    transform: translateY(1px);
+  }
+
+  
+  body {
+    background: #eee;
+  }
+
+  .EmailInput{
+    width: 250px;
+    border-radius: 5px;
+    border-color: #afb3b8;
+    margin-bottom: 10px;
+    height: 40px;
+  }
+.SmallText{
+  color: grey;
+  font-size: 80%;
+  padding: 10px;
+}
+.NewsletterIcon{
+  color: rgb(49, 143, 197);
+  display: grid;
+  justify-content :center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.SmallerFeature{
+    font-size: 12px;
+}
+.SignIn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;   
+}
+.BodySignIn{
+  text-align: center;
+  padding: 15px;
+}
+.SmallText{
+  color: grey;
+  font-size: 80%;
+  text-align: center;
+}
+.threeDots{
+  justify-content: baseline;
+}
+.NavbarStyle{
+  text-align: center;
+  display: grid;
+  justify-content :center;
+}
+.AuthorsTitle{
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  font-stretch: expanded;
+  font-weight:600;
+}
+.TekstAutora{
+  margin-left: 15px;
+  font-size: medium;
+}
+.singleAuthor1{
+  display: flex;
+  align-items: center;
+  flex-wrap:wrap;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.singleAuthor{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.Authors{
+  text-align: start;
+  display:flex;
+  font-size:60%;
+  background-color: #ffffff;
+  border-style:solid;
+  border-width: 1px;
+  border-color: rgb(224, 213, 213);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin-left: 0px;
+  display: inline-block;
+  margin-top: 10px;
+  width: 100%;
+  margin-left: 15px;
+}
+.TagsTitle{
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  font-stretch: expanded;
+  font-weight:600;
+}
+.tekst{
+    text-align: start;
+    font-size: 15px;
+    color: rgb(66, 148, 241);
+    background-color: rgb(208, 240, 250);
+    border-style:solid;
+    border-width: 1px;
+    border-color: rgb(63, 117, 218);
+    border-radius: 4px;
+    margin-top: 3px;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.fullTags{
+  padding-bottom: 15px;
+}
+.TopFeatures{
+    height: 650px;
+    width: 500px;
+}
+.Features{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    flex: 3;
+    height: 700px;
+}
+.fullLower{
+    display:flex;
+    margin-top: 20px;
+}
+.smallposts{
+    object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
+    border-style:solid;
+    border-width: 1px;
+    border-color: rgb(224, 213, 213);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    width: 100%;
+}
+.smallpostsImg{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+
+}
+.smallpoststitle{
+    font-size: 22px;
+}
+.smallpostsInfo{
+    display: flex;
+    flex-direction: column ;
+    align-items:initial;
+    font-size: 20px;
+}
+.smallpostsDate{
+    color: grey;
+    font-size: 15px;
+}
+  .newsletter-subscribe p {
+    color: #16191b;
+    line-height: 1.5;
+  }
+  
+  .newsletter-subscribe h2 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+    color: inherit;
+  }
+  .SignInNewsletter{
+    margin-left: 0px;
+    width: 100%;
+  }
+  .newsletter-subscribe .intro {
+    font-size: 12px;
+    max-width: 500px;
+    margin: 0 auto 25px;
+  }
+  
+  .newsletter-subscribe .intro p {
+    margin-bottom: 35px;
+  }
+  
+  .newsletter-subscribe form {
+    justify-content: center;
+  }
+  .newsletter-subscribe form .btn {
+    padding: 16px 32px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    line-height: 1;
+  }
+  
+  .newsletter-subscribe form .btn:hover {
+    opacity: 1;
+  }
+  
+  .newsletter-subscribe form .btn:active {
+    transform: translateY(1px);
+  }
+  
+  .newsletter-subscribe form .btn-primary {
+    margin-top: 5px;
+    background-color: #fdf900;
+    color: rgb(10, 10, 10);
+    outline: none ;
+    align-items: center;
+    width: 250px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+  }
+  
+  body {
+    background: #eee;
+  }
+.form-group{
+  display:grid;
+  justify-content:space-evenly;
+}
+.EmailInput{
+    border-radius: 5px;
+    border-color: #afb3b8;
+    margin-bottom: 10px;
+    height: 40px;
+  }
